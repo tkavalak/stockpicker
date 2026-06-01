@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/services/rule-engine/.venv/bin/python",
+  "python.analysis.extraPaths": [
+    "services/rule-engine/src",
+    "services/polygon-streamer/src",
+    "services/market-event-processor/src"
+  ],
+  "python.analysis.venvPath": "${workspaceFolder}/services/rule-engine",
+  "python.analysis.venv": ".venv"
+}

@@ -1,0 +1,18 @@
+.env
+.venv/
+.tools/
+.gcloud/
+.logs/
+
+# Terraform
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.*
+infra/terraform/terraform.tfvars
+infra/config/streaming.env
+infra/scripts/.venv/
+services/*/.venv/
+**/.pytest_cache/
+__pycache__/
+*.pyc
+.DS_Store

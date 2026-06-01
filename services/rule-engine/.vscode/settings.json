@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/services/rule-engine/.venv/bin/python",
+  "python.analysis.extraPaths": ["${workspaceFolder}/services/rule-engine/src"]
+}

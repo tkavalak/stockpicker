@@ -1,0 +1,17 @@
+[project]
+name = "notification-service"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.9.0",
+    "google-cloud-bigquery>=3.20.0",
+    "google-cloud-firestore>=2.16.0",
+    "google-cloud-pubsub>=2.21.0",
+]
+
+[tool.pyright]
+include = ["src", "tests"]
+venvPath = "."
+venv = ".venv"
+extraPaths = ["src"]
+pythonVersion = "3.11"
