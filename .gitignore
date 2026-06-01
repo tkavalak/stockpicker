@@ -3,6 +3,7 @@
 .tools/
 .gcloud/
 .logs/
+.gh-config/
 
 # Terraform
 infra/terraform/.terraform/
